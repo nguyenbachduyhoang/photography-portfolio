@@ -6,7 +6,7 @@ import { Camera, Award, Users, Heart } from "lucide-react"
 const stats = [
   { icon: Camera, label: "Dự án hoàn thành", value: "500+" },
   { icon: Users, label: "Khách hàng hài lòng", value: "200+" },
-  { icon: Heart, label: "Năm kinh nghiệm", value: "8+" },
+  { icon: Heart, label: "Năm kinh nghiệm", value: "3+" },
 ]
 
 export function AboutSection() {
@@ -17,7 +17,7 @@ export function AboutSection() {
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold">Về chúng tôi</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Với hơn 8 năm kinh nghiệm trong lĩnh vực nhiếp ảnh, chúng tôi chuyên tạo ra những tác phẩm nghệ thuật độc
+              Với hơn 3 năm kinh nghiệm trong lĩnh vực nhiếp ảnh, chúng tôi chuyên tạo ra những tác phẩm nghệ thuật độc
               đáo và ấn tượng. Từ chụp chân dung, sự kiện đến nhiếp ảnh thương mại, mỗi bức ảnh đều được thực hiện với
               sự tỉ mỉ và đam mê.
             </p>
@@ -32,7 +32,7 @@ export function AboutSection() {
 
           <div className="relative">
             <div className="aspect-[4/5] relative rounded-lg overflow-hidden">
-              <Image src="/professional-photographer-portrait-studio.jpg" alt="Photographer portrait" fill className="object-cover" />
+              <Image src="profile/Profile.png" alt="Photographer portrait" fill className="object-cover" />
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-xl bg-background/90 text-foreground p-6 shadow-xl border border-border/50 backdrop-blur-sm">
               <p className="text-2xl font-bold">8+ năm</p>

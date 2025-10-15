@@ -44,7 +44,7 @@ export default function AboutPage() {
               <div className="aspect-[4/5] relative overflow-hidden rounded-lg">
                 {/* Ảnh cũ: /professional-portrait-photography-studio-lighting-.jpg */}
                 <Image
-                  src="/VeChungToi.jpg"
+                  src="/profile/Profile.png"
                   alt="About Us"
                   fill
                   className="object-cover"
@@ -57,7 +57,7 @@ export default function AboutPage() {
         {/* Stats Section */}
         <AnimatedSection delay={0.4} className="bg-secondary/50 py-16">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-center">
               {stats.map((stat, index) => (
                 <motion.div
                   key={index}
