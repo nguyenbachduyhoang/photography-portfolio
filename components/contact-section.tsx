@@ -102,9 +102,9 @@ export function ContactSection() {
                 <div className="flex items-start space-x-4">
                   <MapPin className="h-6 w-6 text-accent mt-1" />
                   <div>
-                    <h3 className="font-semibold mb-1">Địa chỉ studio</h3>
+                    <h3 className="font-semibold mb-1">Địa chỉ</h3>
                     <p className="text-muted-foreground">
-                      123 Đường Nguyễn Huệ, Quận 1<br />
+                      Làng Đại Học<br />
                       TP. Hồ Chí Minh, Việt Nam
                     </p>
                   </div>
@@ -118,7 +118,7 @@ export function ContactSection() {
                   <Phone className="h-6 w-6 text-accent mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Điện thoại</h3>
-                    <p className="text-muted-foreground">+84 123 456 789</p>
+                    <p className="text-muted-foreground">+84 387 790 898</p>
                   </div>
                 </div>
               </CardContent>
