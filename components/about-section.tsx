@@ -6,7 +6,6 @@ import { Camera, Award, Users, Heart } from "lucide-react"
 const stats = [
   { icon: Camera, label: "Dự án hoàn thành", value: "500+" },
   { icon: Users, label: "Khách hàng hài lòng", value: "200+" },
-  { icon: Award, label: "Giải thưởng", value: "15+" },
   { icon: Heart, label: "Năm kinh nghiệm", value: "8+" },
 ]
 

@@ -78,7 +78,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-accent" />
-                <span className="text-muted-foreground text-sm">+84 123 456 789</span>
+                <span className="text-muted-foreground text-sm">+84 387 790 898</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-accent" />
@@ -89,7 +89,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 PhotoStudio. Tất cả quyền được bảo lưu.</p>
+          <p>&copy; 2022 PhotoStudio. Tất cả quyền được bảo lưu.</p>
         </div>
       </div>
     </footer>

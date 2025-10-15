@@ -11,8 +11,8 @@ const portfolioCategories = [
   { id: "all", name: "Tất Cả" },
   { id: "portrait", name: "Chân Dung" },
   { id: "landscape", name: "Phong Cảnh" },
-  { id: "fashion", name: "Thời Trang" },
-  { id: "wedding", name: "Cưới Hỏi" },
+  { id: "street", name: "Đường Phố" },
+  { id: "product", name: "Sản Phẩm" },
 ]
 
 const portfolioItems = [
@@ -20,30 +20,30 @@ const portfolioItems = [
   {
     id: 1,
     category: "portrait",
-    title: "ECU Portrait",
+    title: "Nàng thơ",
     image: "/potrairt/ECU.jpg",
-    description: "Chân dung chuyên nghiệp ECU",
+    description: "Chân dung nàng thơ với thiên nhiên",
   },
   {
     id: 2,
     category: "portrait",
-    title: "KTXA Portrait",
+    title: "KTX A Portrait",
     image: "/potrairt/KTXA.jpg",
-    description: "Chân dung KTXA",
+    description: "Chân dung sinh viên KTX A",
   },
   {
     id: 3,
     category: "portrait",
-    title: "Ngân Hàng",
+    title: "Sinh Viên",
     image: "/potrairt/NganHang.jpg",
-    description: "Chân dung doanh nhân ngân hàng",
+    description: "Chân dung sinh viên ĐH Ngân Hàng",
   },
   {
     id: 4,
     category: "portrait",
-    title: "Ngân Hàng Style",
+    title: "Sinh Viên",
     image: "/potrairt/NganHang1.jpg",
-    description: "Phong cách chuyên nghiệp",
+    description: "Chân dung sinh viên ĐH Ngân Hàng",
   },
   {
     id: 5,
@@ -55,9 +55,9 @@ const portfolioItems = [
   {
     id: 6,
     category: "portrait",
-    title: "UTE Graduate",
+    title: "UTE Student",
     image: "/potrairt/UTE1.jpg",
-    description: "Ảnh tốt nghiệp UTE",
+    description: "Chân dung sinh viên UTE",
   },
 
   // Landscape category - Phong cảnh
@@ -68,39 +68,69 @@ const portfolioItems = [
     image: "/landscape/1.jpg",
     description: "Cảnh quan thiên nhiên tuyệt đẹp",
   },
+    {
+      id: 21,
+      category: "landscape",
+      title: "Con Dốc Tình Yêu",
+      image: "/landscape/ConDoc.jpg",
+      description: "Cảnh đẹp Côn Đảo",
+    },
+    {
+      id: 22,
+      category: "landscape",
+      title: "Vũng Tàu",
+      image: "/landscape/DSC_5507_1.jpg",
+      description: "Bình minh Vũng Tàu",
+    },
+    {
+      id: 23,
+      category: "landscape",
+      title: "Đà Lạt",
+      image: "/landscape/DSC00778.png",
+      description: "Ảnh phong cảnh Đà Lạt",
+    },
+    {
+      id: 24,
+      category: "landscape",
+      title: "Đà Lạt",
+      image: "/landscape/DSC00789.png",
+      description: "Ảnh phong cảnh Đà Lạt",
+    },
+  
+
 
   // Street Photography - Đường phố
   {
     id: 8,
-    category: "fashion",
+    category: "street",
     title: "Street Life 1",
     image: "/street/1.jpg",
     description: "Cuộc sống đường phố",
   },
   {
     id: 9,
-    category: "fashion",
+    category: "street",
     title: "Street Life 2",
     image: "/street/2.jpg",
     description: "Khoảnh khắc đường phố",
   },
   {
     id: 10,
-    category: "fashion",
+    category: "street",
     title: "Street Life 3",
     image: "/street/3.jpg",
     description: "Nghệ thuật đường phố",
   },
   {
     id: 11,
-    category: "fashion",
+    category: "street",
     title: "Street Life 4",
     image: "/street/4.jpg",
     description: "Cuộc sống thành thị",
   },
   {
     id: 12,
-    category: "fashion",
+    category: "street",
     title: "Street Life 5",
     image: "/street/5.jpg",
     description: "Phong cách đường phố",
@@ -109,56 +139,56 @@ const portfolioItems = [
   // Product Photography - Sản phẩm
   {
     id: 13,
-    category: "wedding",
+    category: "product",
     title: "Bánh Ngọt",
     image: "/product/Bánh Ngọt 1.jpg",
     description: "Chụp ảnh bánh ngọt nghệ thuật",
   },
   {
     id: 14,
-    category: "wedding",
+    category: "product",
     title: "Product DSC09958",
     image: "/product/DSC09958.jpg",
     description: "Chụp sản phẩm chuyên nghiệp",
   },
   {
     id: 15,
-    category: "wedding",
+    category: "product",
     title: "Product DSC09975",
     image: "/product/DSC09975.jpg",
     description: "Nghệ thuật chụp sản phẩm",
   },
   {
     id: 16,
-    category: "wedding",
+    category: "product",
     title: "Trứng Bò Xúc Xích",
     image: "/product/DSC_3002_trứng bò xúc xích.jpg",
     description: "Food photography - Món ăn ngon",
   },
   {
     id: 17,
-    category: "wedding",
+    category: "product",
     title: "Bò Kho",
     image: "/product/DSC_3349_Bò Kho.jpg",
     description: "Food photography - Bò kho đậm đà",
   },
   {
     id: 18,
-    category: "wedding",
+    category: "product",
     title: "Product DSC_4287",
     image: "/product/DSC_4287.jpg",
     description: "Chụp sản phẩm cao cấp",
   },
   {
     id: 19,
-    category: "wedding",
+    category: "product",
     title: "Product DSC_4302",
     image: "/product/DSC_4302.jpg",
     description: "Sản phẩm chất lượng cao",
   },
   {
     id: 20,
-    category: "wedding",
+    category: "product",
     title: "Product DSC_4806",
     image: "/product/DSC_4806.JPG",
     description: "Nghệ thuật ánh sáng sản phẩm",
@@ -185,7 +215,7 @@ export default function PortfolioPage() {
             className="text-center"
           >
             <h1 className="mb-4 text-4xl font-light md:text-6xl">Portfolio</h1>
-            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+            <p className="mx-auto max-w-2xl text-lg text-gray-800">
               Khám phá bộ sưu tập những tác phẩm nhiếp ảnh đặc sắc
             </p>
           </motion.div>

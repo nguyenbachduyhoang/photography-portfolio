@@ -87,9 +87,8 @@ const services = [
 
 const stats = [
   { number: "500+", label: "Dự án hoàn thành" },
-  { number: "1000+", label: "Khách hàng hài lòng" },
+  { number: "200+", label: "Khách hàng hài lòng" },
   { number: "5", label: "Năm kinh nghiệm" },
-  { number: "50+", label: "Giải thưởng" }
 ]
 
 const process = [
@@ -165,7 +164,6 @@ export default function ServicesPage() {
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="text-center"
                 >
@@ -269,8 +267,8 @@ export default function ServicesPage() {
                       </div>
                       
                       <Button className="w-full bg-accent hover:bg-accent/90 group">
-                        Liên hệ tư vấn
-                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                        <span className="text-gray-900 font-semibold">Liên hệ tư vấn</span>
+                        <ArrowRight className="ml-2 h-4 w-4 text-gray-900 group-hover:translate-x-1 transition-transform" />
                       </Button>
                     </CardContent>
                   </Card>

@@ -10,17 +10,17 @@ import { motion } from "framer-motion"
 const featuredProjects = [
   {
     id: 1,
-    title: "Bộ ảnh cưới Golden Hour",
+    title: "Bộ ảnh cưới Làng Đại Học",
     category: "Wedding",
-    client: "Minh & Hương",
-    year: "2024",
+    client: "Cặp Đôi Hạnh Phúc",
+    year: "2023",
     description:
-      "Bộ ảnh cưới lãng mạn trong ánh hoàng hôn vàng, kết hợp giữa phong cách cổ điển và hiện đại với những khoảnh khắc đầy cảm xúc.",
+      "Bộ ảnh cưới lãng mạn, nơi cô dâu và chú rể đã có những kỷ niệm đẹp trong những năm tháng yêu nhau.",
       image: "/DSC_7228.png",
     //  image: "/wedding-romantic-couple-golden-hour.jpg",
     stats: {
-      photos: 150,
-      locations: 5,
+      photos: 500,
+      locations: 3,
       hours: 8,
     },
   },

@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Điện Thoại",
-    content: "+84 123 456 789",
+    content: "+84 387 790 898",
   },
   {
     icon: Mail,
@@ -46,7 +46,7 @@ export default function ContactPage() {
             className="text-center mb-16"
           >
             <h1 className="mb-4 text-4xl font-light md:text-6xl">Liên Hệ</h1>
-            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+            <p className="mx-auto max-w-2xl text-lg text-gray-800">
               Hãy liên hệ với chúng tôi để thảo luận về dự án của bạn
             </p>
           </motion.div>

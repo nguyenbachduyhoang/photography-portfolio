@@ -51,7 +51,7 @@ export default function BlogPage() {
             className="text-center mb-16"
           >
             <h1 className="mb-4 text-4xl font-light md:text-6xl">Blog</h1>
-            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+            <p className="mx-auto max-w-2xl text-lg text-gray-800">
               Chia sẻ kiến thức và kinh nghiệm về nhiếp ảnh
             </p>
           </motion.div>
@@ -88,10 +88,10 @@ export default function BlogPage() {
 
                     <h2 className="mb-3 text-xl font-medium hover:text-primary transition-colors">{post.title}</h2>
 
-                    <p className="mb-4 text-muted-foreground leading-relaxed">{post.excerpt}</p>
+                    <p className="mb-4 text-gray-800 leading-relaxed">{post.excerpt}</p>
 
                     <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                      <div className="flex items-center gap-2 text-sm text-gray-800">
                         <User className="h-4 w-4" />
                         {post.author}
                       </div>

@@ -19,22 +19,6 @@ const galleryImages = [
     featured: true,
   },
   {
-    id: 2,
-    src: "/portrait-artistic-black-white.jpg",
-    category: "Chân dung",
-    title: "Artistic Portrait",
-    description: "Chân dung nghệ thuật đen trắng đầy cảm xúc",
-    featured: true,
-  },
-  {
-    id: 3,
-    src: "/fashion-editorial-modern-style.jpg",
-    category: "Street",
-    title: "Modern Fashion",
-    description: "Thời trang hiện đại với phong cách editorial",
-    featured: false,
-  },
-  {
     id: 4,
     src: "/landscape-nature-forest-mist.jpg",
     category: "Phong cảnh",
@@ -42,22 +26,7 @@ const galleryImages = [
     description: "Rừng sương mù huyền ảo trong buổi sáng",
     featured: false,
   },
-  {
-    id: 5,
-    src: "/street-photography-urban-life.jpg",
-    category: "Street",
-    title: "Urban Life",
-    description: "Cuộc sống đô thị qua góc nhìn nghệ thuật",
-    featured: false,
-  },
-  {
-    id: 6,
-    src: "/product-commercial-luxury-watch.jpg",
-    category: "Sản phẩm",
-    title: "Luxury Product",
-    description: "Chụp sản phẩm cao cấp với ánh sáng hoàn hảo",
-    featured: false,
-  },
+  
   {
     id: 7,
     src: "/architecture-modern-building-geometry.jpg",
@@ -74,14 +43,7 @@ const galleryImages = [
     description: "Năng lượng sân khấu với ánh sáng đầy màu sắc",
     featured: false,
   },
-  {
-    id: 9,
-    src: "/food-culinary-artistic-plating.jpg",
-    category: "Sản phẩm",
-    title: "Culinary Art",
-    description: "Nghệ thuật ẩm thực với cách trình bày tinh tế",
-    featured: false,
-  },
+
   {
     id: 10,
     src: "/potrairt/ECU.jpg",
